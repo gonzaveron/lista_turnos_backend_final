@@ -1,0 +1,23 @@
+Operador
+	nombre
+	pass
+	oficina
+	isAdmin
+
+Oficina
+	nombre: ['AIS/COM' | 'TWR' | 'MET']
+	aeropuerto
+
+Turnos
+	anio:
+	mes:
+	dia:
+	horario: ['A' | 'B' | 'C' | 'V']
+	operador
+
+src
+	models
+	routes
+	controllers
+	services
+connection.js
